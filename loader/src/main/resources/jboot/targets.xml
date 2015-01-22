@@ -1,0 +1,44 @@
+<bootables>
+	<javaBootable>
+		<name>jboot.repository</name>
+		<version>1.0</version>
+		<description>Artifact repository server</description>
+		<argumentInfos>
+			<argumentInfo>
+				<argument>-url:</argument>
+				<description>The url onto which to bind the server's listening socket.</description>
+			</argumentInfo>
+			<argumentInfo>
+				<argument>-localrepo:</argument>
+				<description>The path to the repository on the local filesystem. This argument is read from the bootstrapper's arguments.</description>
+			</argumentInfo>
+		</argumentInfos>
+		<arguments>
+			<argument>-url:http://localhost:9999</argument>
+		</arguments>
+		<className>jboot.repository.server.RepositoryRunner</className>
+	</javaBootable>
+	<javaBootable>
+		<name>jboot.repository.proxy</name>
+		<version>1.0</version>
+		<description>Artifact repository proxy server</description>
+		<argumentInfos>
+			<argumentInfo>
+				<argument>-url:</argument>
+				<description>The url onto which to bind the server's listening socket.</description>
+			</argumentInfo>
+			<argumentInfo>
+				<argument>-cachepath:</argument>
+				<description>The path to the repository proxy cache on the local filesystem. Default value: .jboot/repoproxy/cache</description>
+			</argumentInfo>
+			<argumentInfo>
+				<argument>-remoterepo:&lt;id&gt;:&lt;name&gt;:&lt;host&gt;:&lt;port&gt;:&lt;version&gt;</argument>
+				<description>Specifies a remote repository. This argument can be repeated to specify multiple remote repositories. This argument is read from the bootstrapper's arguments.</description>
+			</argumentInfo>
+		</argumentInfos>
+		<arguments>
+			<argument>-url:http://localhost:9998</argument>
+		</arguments>
+		<className>jboot.repository.server.proxy.RepositoryProxyRunner</className>
+	</javaBootable>
+</bootables>
