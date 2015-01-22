@@ -6,3 +6,6 @@ JBOOT allows you to run your JAVA compiled code using the Maven repository used 
 
 Distance between compile time and runtime is very close, removing all possible errors.
 
+Check the wiki for more information.
+
+License: apache license
