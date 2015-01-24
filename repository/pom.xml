@@ -9,7 +9,7 @@
 	</parent>
 
 	<groupId>charb.jboot</groupId>
-	<artifactId>loader</artifactId>
+	<artifactId>repository</artifactId>
 	<packaging>jar</packaging>
 	<name>${charb.project.name.template}</name>
 
@@ -41,6 +41,11 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>charb.jboot</groupId>
+			<artifactId>loader</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>

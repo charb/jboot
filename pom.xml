@@ -16,10 +16,16 @@
 
 	<modules>
 		<module>loader</module>
+		<module>repository</module>
 	</modules>
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>charb.jboot</groupId>
+				<artifactId>loader</artifactId>
+				<version>1.0</version>
+			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-server</artifactId>
@@ -58,6 +64,11 @@
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-jmx</artifactId>
+				<version>8.1.13.v20130916</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-util</artifactId>
 				<version>8.1.13.v20130916</version>
 			</dependency>
 		</dependencies>

@@ -30,7 +30,7 @@ import jboot.loader.bootstrapper.bootable.model.ScriptBootableInfo;
 public class BootableLauncher extends AbstractBootableLauncher<BootableInfo> {
 	private static final Logger bootstrapperLog = Logger.getLogger("jboot.bootstrapper");
 	private static final Logger log = Logger.getLogger(BootableLauncher.class.getName());
-	private static final String strBOOTABLES_FILE_PATH = "jboot/boot/targets.xml";
+	private static final String strBOOTABLES_FILE_PATH = "jboot/targets.xml";
 
 	private Map<String, BootableInfo> bootables; //map key == name:version
 	private List<String> bootableUris;
