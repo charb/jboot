@@ -109,7 +109,7 @@ public class DefaultModelRepositoryLayout implements IModelRepositoryLayout {
 		File artifactsDirectory = new File(strArtifactsDirectoryPath);
 		if (artifactsDirectory.exists()) {
 			FileFilter artifactFileFilter = new FileFilter() {
-				private Pattern pattern = Pattern.compile(modelNode.getArtifactId() + "-" + modelNode.getVersion() + "(-\\w+)?\\.(\\w+)"); //this will also match the pom
+				private Pattern pattern = Pattern.compile(modelNode.getArtifactId() + "-" + modelNode.getVersion() + "(-([^.]+))?\\.(\\w+)"); //this will also match the pom
 				private Matcher matcher = pattern.matcher("");
 
 				@Override

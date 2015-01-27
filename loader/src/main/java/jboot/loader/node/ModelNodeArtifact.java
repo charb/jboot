@@ -41,4 +41,7 @@ public class ModelNodeArtifact {
 		this.resource = resource;
 	}
 
+	public String toString(){
+		return ""+modelNode+", Classifier:"+classifier;
+	}
 }
