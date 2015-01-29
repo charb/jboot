@@ -1,4 +1,4 @@
-package jboot.loader.boot.log;
+package jboot.loader.log;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

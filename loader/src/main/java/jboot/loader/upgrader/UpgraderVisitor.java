@@ -11,12 +11,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.zip.ZipFile;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.repository.DefaultModelRepositoryLayout;
-import jboot.loader.boot.resolver.ExceptionCollector;
-import jboot.loader.boot.resolver.ModelNodeResult;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.repository.DefaultModelRepositoryLayout;
+import jboot.loader.resolver.ExceptionCollector;
+import jboot.loader.resolver.ModelNodeResult;
 import jboot.repository.client.IRepository;
 import jboot.repository.client.builder.IProjectInfoResolver;
 import jboot.repository.client.checksum.IChecksumCalculator;

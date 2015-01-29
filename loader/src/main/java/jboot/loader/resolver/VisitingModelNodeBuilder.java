@@ -1,4 +1,4 @@
-package jboot.loader.boot.resolver;
+package jboot.loader.resolver;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import jboot.loader.boot.model.Model;
-import jboot.loader.boot.model.Parent;
-import jboot.loader.boot.node.IModelLoader;
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.ModelNodeDependency;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.Resource;
-import jboot.loader.boot.repository.IModelRepositoryLayout;
+import jboot.loader.model.Model;
+import jboot.loader.model.Parent;
+import jboot.loader.node.IModelLoader;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.ModelNodeDependency;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.Resource;
+import jboot.loader.repository.IModelRepositoryLayout;
 
 public class VisitingModelNodeBuilder extends QueueVisitor<ModelNode> {
 	private static final Logger log = Logger.getLogger(VisitingModelNodeBuilder.class.getName());

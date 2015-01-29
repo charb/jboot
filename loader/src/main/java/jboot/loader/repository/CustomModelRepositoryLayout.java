@@ -1,4 +1,4 @@
-package jboot.loader.boot.repository;
+package jboot.loader.repository;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -6,10 +6,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.Resource;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.Resource;
 
 public class CustomModelRepositoryLayout implements IModelRepositoryLayout {
 	//private static final Logger log = Logger.getLogger(CustomModelRepositoryLayout.class.getName());

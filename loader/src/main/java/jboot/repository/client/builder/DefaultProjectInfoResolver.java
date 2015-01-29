@@ -2,10 +2,10 @@ package jboot.repository.client.builder;
 
 import java.util.Map;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.resolver.ExceptionCollector;
-import jboot.loader.boot.resolver.IProjectResolver;
-import jboot.loader.boot.resolver.ModelNodeResult;
+import jboot.loader.node.ModelNode;
+import jboot.loader.resolver.ExceptionCollector;
+import jboot.loader.resolver.IProjectResolver;
+import jboot.loader.resolver.ModelNodeResult;
 import jboot.repository.client.info.ModelNodeInfoBuilderVisitor;
 import jboot.repository.client.info.ModelNodeInfoResult;
 

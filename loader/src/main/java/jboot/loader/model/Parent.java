@@ -1,4 +1,4 @@
-package jboot.loader.boot.model;
+package jboot.loader.model;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

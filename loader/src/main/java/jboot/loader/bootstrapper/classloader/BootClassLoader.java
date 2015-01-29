@@ -31,14 +31,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
-import jboot.loader.boot.model.Exclusion;
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeDependency;
-import jboot.loader.boot.node.resource.DirResource;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.MultiResource;
-import jboot.loader.boot.node.resource.Resource;
-import jboot.loader.boot.resolver.ModelNodeResult;
+import jboot.loader.model.Exclusion;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeDependency;
+import jboot.loader.node.resource.DirResource;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.MultiResource;
+import jboot.loader.node.resource.Resource;
+import jboot.loader.resolver.ModelNodeResult;
 import jboot.loader.bootstrapper.IBootstrapLoader;
 
 public class BootClassLoader extends ClassLoader {

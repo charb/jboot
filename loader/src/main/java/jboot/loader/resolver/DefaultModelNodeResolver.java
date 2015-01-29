@@ -1,7 +1,7 @@
-package jboot.loader.boot.resolver;
+package jboot.loader.resolver;
 
-import jboot.loader.boot.node.IModelLoader;
-import jboot.loader.boot.repository.IModelRepositoryLayout;
+import jboot.loader.node.IModelLoader;
+import jboot.loader.repository.IModelRepositoryLayout;
 
 public class DefaultModelNodeResolver implements IModelNodeResolver {
 	private VisitingModelNodeBuilder visitingModelNodeBuilder;

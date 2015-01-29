@@ -1,2 +1,2 @@
 @javax.xml.bind.annotation.XmlSchema
-package jboot.loader.boot.model;
+package jboot.loader.model;

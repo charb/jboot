@@ -1,4 +1,4 @@
-package jboot.loader.boot.repository;
+package jboot.loader.repository;
 
 import java.util.ArrayList;
 import java.util.HashMap;

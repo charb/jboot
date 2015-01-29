@@ -1,4 +1,4 @@
-package jboot.loader.boot.node.resource;
+package jboot.loader.node.resource;
 
 import java.util.ArrayList;
 import java.util.Collections;

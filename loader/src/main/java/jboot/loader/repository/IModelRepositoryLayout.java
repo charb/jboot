@@ -1,8 +1,8 @@
-package jboot.loader.boot.repository;
+package jboot.loader.repository;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.Resource;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.Resource;
 
 public interface IModelRepositoryLayout {
     public String[] getVersions(String groupId, String artifactId);

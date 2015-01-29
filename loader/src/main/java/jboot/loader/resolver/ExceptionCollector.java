@@ -1,4 +1,4 @@
-package jboot.loader.boot.resolver;
+package jboot.loader.resolver;
 
 import java.util.ArrayList;
 import java.util.List;

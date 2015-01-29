@@ -1,4 +1,4 @@
-package jboot.loader.boot.repository;
+package jboot.loader.repository;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.Resource;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.Resource;
 
 public class DefaultModelRepositoryLayout implements IModelRepositoryLayout {
 	private static final String PACKAGING_POM = "pom";

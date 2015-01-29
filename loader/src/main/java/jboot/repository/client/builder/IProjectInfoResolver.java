@@ -1,6 +1,6 @@
 package jboot.repository.client.builder;
 
-import jboot.loader.boot.resolver.ExceptionCollector;
+import jboot.loader.resolver.ExceptionCollector;
 
 public interface IProjectInfoResolver {
 	public ExceptionCollector resolve(String groupId, String artifactId, String version) throws Exception;

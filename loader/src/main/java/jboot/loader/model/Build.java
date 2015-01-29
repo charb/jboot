@@ -1,5 +1,5 @@
 
-package jboot.loader.boot.model;
+package jboot.loader.model;
 
 import java.util.ArrayList;
 import java.util.List;

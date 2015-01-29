@@ -1,6 +1,6 @@
-package jboot.loader.boot.node;
+package jboot.loader.node;
 
-import jboot.loader.boot.node.resource.Resource;
+import jboot.loader.node.resource.Resource;
 
 
 public class ModelNodeArtifact {

@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import jboot.loader.boot.node.DefaultModelLoader;
-import jboot.loader.boot.repository.DefaultModelRepositoryLayout;
-import jboot.loader.boot.resolver.DefaultProjectResolver;
-import jboot.loader.boot.resolver.ExceptionCollector;
-import jboot.loader.boot.resolver.IProjectResolver;
-import jboot.loader.boot.resolver.ModelNodeResult;
+import jboot.loader.node.DefaultModelLoader;
+import jboot.loader.repository.DefaultModelRepositoryLayout;
+import jboot.loader.resolver.DefaultProjectResolver;
+import jboot.loader.resolver.ExceptionCollector;
+import jboot.loader.resolver.IProjectResolver;
+import jboot.loader.resolver.ModelNodeResult;
 import jboot.repository.client.IRepository;
 import jboot.repository.client.builder.DefaultProjectInfoResolver;
 import jboot.repository.client.builder.IProjectInfoResolver;

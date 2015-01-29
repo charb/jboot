@@ -1,4 +1,4 @@
-package jboot.loader.boot.common;
+package jboot.loader.common;
 
 import java.util.LinkedHashMap;
 

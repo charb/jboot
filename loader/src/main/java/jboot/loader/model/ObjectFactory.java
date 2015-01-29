@@ -1,5 +1,5 @@
 
-package jboot.loader.boot.model;
+package jboot.loader.model;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
@@ -9,7 +9,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * jboot.loader.boot.maven.model in the jboot.loader.boot.maven.model package. 
+ * jboot.loader.maven.model in the jboot.loader.maven.model package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -26,18 +26,18 @@ public class ObjectFactory {
     private final static QName _Project_QNAME = new QName("", "project");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: jboot.loader.boot.maven.model
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: jboot.loader.maven.model
      * 
      */
     public ObjectFactory() {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Build.TestResources }
+     * Create an instance of {@link jboot.loader.model.Build.TestResources }
      * 
      */
-    public jboot.loader.boot.model.Build.TestResources createBuildTestResources() {
-        return new jboot.loader.boot.model.Build.TestResources();
+    public jboot.loader.model.Build.TestResources createBuildTestResources() {
+        return new jboot.loader.model.Build.TestResources();
     }
 
     /**
@@ -49,11 +49,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Modules }
+     * Create an instance of {@link jboot.loader.model.Model.Modules }
      * 
      */
-    public jboot.loader.boot.model.Model.Modules createModelModules() {
-        return new jboot.loader.boot.model.Model.Modules();
+    public jboot.loader.model.Model.Modules createModelModules() {
+        return new jboot.loader.model.Model.Modules();
     }
 
     /**
@@ -65,11 +65,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Dependencies }
+     * Create an instance of {@link jboot.loader.model.Model.Dependencies }
      * 
      */
-    public jboot.loader.boot.model.Model.Dependencies createModelDependencies() {
-        return new jboot.loader.boot.model.Model.Dependencies();
+    public jboot.loader.model.Model.Dependencies createModelDependencies() {
+        return new jboot.loader.model.Model.Dependencies();
     }
 
     /**
@@ -81,11 +81,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Licenses }
+     * Create an instance of {@link jboot.loader.model.Model.Licenses }
      * 
      */
-    public jboot.loader.boot.model.Model.Licenses createModelLicenses() {
-        return new jboot.loader.boot.model.Model.Licenses();
+    public jboot.loader.model.Model.Licenses createModelLicenses() {
+        return new jboot.loader.model.Model.Licenses();
     }
 
     /**
@@ -97,11 +97,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.PluginRepositories }
+     * Create an instance of {@link jboot.loader.model.Model.PluginRepositories }
      * 
      */
-    public jboot.loader.boot.model.Model.PluginRepositories createModelPluginRepositories() {
-        return new jboot.loader.boot.model.Model.PluginRepositories();
+    public jboot.loader.model.Model.PluginRepositories createModelPluginRepositories() {
+        return new jboot.loader.model.Model.PluginRepositories();
     }
 
     /**
@@ -113,19 +113,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.BuildBase.TestResources }
+     * Create an instance of {@link jboot.loader.model.BuildBase.TestResources }
      * 
      */
-    public jboot.loader.boot.model.BuildBase.TestResources createBuildBaseTestResources() {
-        return new jboot.loader.boot.model.BuildBase.TestResources();
+    public jboot.loader.model.BuildBase.TestResources createBuildBaseTestResources() {
+        return new jboot.loader.model.BuildBase.TestResources();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Build.Plugins }
+     * Create an instance of {@link jboot.loader.model.Build.Plugins }
      * 
      */
-    public jboot.loader.boot.model.Build.Plugins createBuildPlugins() {
-        return new jboot.loader.boot.model.Build.Plugins();
+    public jboot.loader.model.Build.Plugins createBuildPlugins() {
+        return new jboot.loader.model.Build.Plugins();
     }
 
     /**
@@ -145,43 +145,43 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Resource.Includes }
+     * Create an instance of {@link jboot.loader.model.Resource.Includes }
      * 
      */
-    public jboot.loader.boot.model.Resource.Includes createResourceIncludes() {
-        return new jboot.loader.boot.model.Resource.Includes();
+    public jboot.loader.model.Resource.Includes createResourceIncludes() {
+        return new jboot.loader.model.Resource.Includes();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Plugin.Executions }
+     * Create an instance of {@link jboot.loader.model.Plugin.Executions }
      * 
      */
-    public jboot.loader.boot.model.Plugin.Executions createPluginExecutions() {
-        return new jboot.loader.boot.model.Plugin.Executions();
+    public jboot.loader.model.Plugin.Executions createPluginExecutions() {
+        return new jboot.loader.model.Plugin.Executions();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.Dependencies }
+     * Create an instance of {@link jboot.loader.model.Profile.Dependencies }
      * 
      */
-    public jboot.loader.boot.model.Profile.Dependencies createProfileDependencies() {
-        return new jboot.loader.boot.model.Profile.Dependencies();
+    public jboot.loader.model.Profile.Dependencies createProfileDependencies() {
+        return new jboot.loader.model.Profile.Dependencies();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Reporting.Plugins }
+     * Create an instance of {@link jboot.loader.model.Reporting.Plugins }
      * 
      */
-    public jboot.loader.boot.model.Reporting.Plugins createReportingPlugins() {
-        return new jboot.loader.boot.model.Reporting.Plugins();
+    public jboot.loader.model.Reporting.Plugins createReportingPlugins() {
+        return new jboot.loader.model.Reporting.Plugins();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Build.Extensions }
+     * Create an instance of {@link jboot.loader.model.Build.Extensions }
      * 
      */
-    public jboot.loader.boot.model.Build.Extensions createBuildExtensions() {
-        return new jboot.loader.boot.model.Build.Extensions();
+    public jboot.loader.model.Build.Extensions createBuildExtensions() {
+        return new jboot.loader.model.Build.Extensions();
     }
 
     /**
@@ -193,19 +193,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.MailingLists }
+     * Create an instance of {@link jboot.loader.model.Model.MailingLists }
      * 
      */
-    public jboot.loader.boot.model.Model.MailingLists createModelMailingLists() {
-        return new jboot.loader.boot.model.Model.MailingLists();
+    public jboot.loader.model.Model.MailingLists createModelMailingLists() {
+        return new jboot.loader.model.Model.MailingLists();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.ReportPlugin.ReportSets }
+     * Create an instance of {@link jboot.loader.model.ReportPlugin.ReportSets }
      * 
      */
-    public jboot.loader.boot.model.ReportPlugin.ReportSets createReportPluginReportSets() {
-        return new jboot.loader.boot.model.ReportPlugin.ReportSets();
+    public jboot.loader.model.ReportPlugin.ReportSets createReportPluginReportSets() {
+        return new jboot.loader.model.ReportPlugin.ReportSets();
     }
 
     /**
@@ -225,35 +225,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.CiManagement.Notifiers }
+     * Create an instance of {@link jboot.loader.model.CiManagement.Notifiers }
      * 
      */
-    public jboot.loader.boot.model.CiManagement.Notifiers createCiManagementNotifiers() {
-        return new jboot.loader.boot.model.CiManagement.Notifiers();
+    public jboot.loader.model.CiManagement.Notifiers createCiManagementNotifiers() {
+        return new jboot.loader.model.CiManagement.Notifiers();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Plugin.Configuration }
+     * Create an instance of {@link jboot.loader.model.Plugin.Configuration }
      * 
      */
-    public jboot.loader.boot.model.Plugin.Configuration createPluginConfiguration() {
-        return new jboot.loader.boot.model.Plugin.Configuration();
+    public jboot.loader.model.Plugin.Configuration createPluginConfiguration() {
+        return new jboot.loader.model.Plugin.Configuration();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.ReportPlugin.Configuration }
+     * Create an instance of {@link jboot.loader.model.ReportPlugin.Configuration }
      * 
      */
-    public jboot.loader.boot.model.ReportPlugin.Configuration createReportPluginConfiguration() {
-        return new jboot.loader.boot.model.ReportPlugin.Configuration();
+    public jboot.loader.model.ReportPlugin.Configuration createReportPluginConfiguration() {
+        return new jboot.loader.model.ReportPlugin.Configuration();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Developers }
+     * Create an instance of {@link jboot.loader.model.Model.Developers }
      * 
      */
-    public jboot.loader.boot.model.Model.Developers createModelDevelopers() {
-        return new jboot.loader.boot.model.Model.Developers();
+    public jboot.loader.model.Model.Developers createModelDevelopers() {
+        return new jboot.loader.model.Model.Developers();
     }
 
     /**
@@ -273,19 +273,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Plugin.Goals }
+     * Create an instance of {@link jboot.loader.model.Plugin.Goals }
      * 
      */
-    public jboot.loader.boot.model.Plugin.Goals createPluginGoals() {
-        return new jboot.loader.boot.model.Plugin.Goals();
+    public jboot.loader.model.Plugin.Goals createPluginGoals() {
+        return new jboot.loader.model.Plugin.Goals();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.ReportSet.Reports }
+     * Create an instance of {@link jboot.loader.model.ReportSet.Reports }
      * 
      */
-    public jboot.loader.boot.model.ReportSet.Reports createReportSetReports() {
-        return new jboot.loader.boot.model.ReportSet.Reports();
+    public jboot.loader.model.ReportSet.Reports createReportSetReports() {
+        return new jboot.loader.model.ReportSet.Reports();
     }
 
     /**
@@ -297,11 +297,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.BuildBase.Plugins }
+     * Create an instance of {@link jboot.loader.model.BuildBase.Plugins }
      * 
      */
-    public jboot.loader.boot.model.BuildBase.Plugins createBuildBasePlugins() {
-        return new jboot.loader.boot.model.BuildBase.Plugins();
+    public jboot.loader.model.BuildBase.Plugins createBuildBasePlugins() {
+        return new jboot.loader.model.BuildBase.Plugins();
     }
 
     /**
@@ -321,35 +321,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.PluginRepositories }
+     * Create an instance of {@link jboot.loader.model.Profile.PluginRepositories }
      * 
      */
-    public jboot.loader.boot.model.Profile.PluginRepositories createProfilePluginRepositories() {
-        return new jboot.loader.boot.model.Profile.PluginRepositories();
+    public jboot.loader.model.Profile.PluginRepositories createProfilePluginRepositories() {
+        return new jboot.loader.model.Profile.PluginRepositories();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.MailingList.OtherArchives }
+     * Create an instance of {@link jboot.loader.model.MailingList.OtherArchives }
      * 
      */
-    public jboot.loader.boot.model.MailingList.OtherArchives createMailingListOtherArchives() {
-        return new jboot.loader.boot.model.MailingList.OtherArchives();
+    public jboot.loader.model.MailingList.OtherArchives createMailingListOtherArchives() {
+        return new jboot.loader.model.MailingList.OtherArchives();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Plugin.Dependencies }
+     * Create an instance of {@link jboot.loader.model.Plugin.Dependencies }
      * 
      */
-    public jboot.loader.boot.model.Plugin.Dependencies createPluginDependencies() {
-        return new jboot.loader.boot.model.Plugin.Dependencies();
+    public jboot.loader.model.Plugin.Dependencies createPluginDependencies() {
+        return new jboot.loader.model.Plugin.Dependencies();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.Modules }
+     * Create an instance of {@link jboot.loader.model.Profile.Modules }
      * 
      */
-    public jboot.loader.boot.model.Profile.Modules createProfileModules() {
-        return new jboot.loader.boot.model.Profile.Modules();
+    public jboot.loader.model.Profile.Modules createProfileModules() {
+        return new jboot.loader.model.Profile.Modules();
     }
 
     /**
@@ -369,11 +369,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.BuildBase.Resources }
+     * Create an instance of {@link jboot.loader.model.BuildBase.Resources }
      * 
      */
-    public jboot.loader.boot.model.BuildBase.Resources createBuildBaseResources() {
-        return new jboot.loader.boot.model.BuildBase.Resources();
+    public jboot.loader.model.BuildBase.Resources createBuildBaseResources() {
+        return new jboot.loader.model.BuildBase.Resources();
     }
 
     /**
@@ -385,11 +385,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.ReportSet.Configuration }
+     * Create an instance of {@link jboot.loader.model.ReportSet.Configuration }
      * 
      */
-    public jboot.loader.boot.model.ReportSet.Configuration createReportSetConfiguration() {
-        return new jboot.loader.boot.model.ReportSet.Configuration();
+    public jboot.loader.model.ReportSet.Configuration createReportSetConfiguration() {
+        return new jboot.loader.model.ReportSet.Configuration();
     }
 
     /**
@@ -401,11 +401,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Build.Resources }
+     * Create an instance of {@link jboot.loader.model.Build.Resources }
      * 
      */
-    public jboot.loader.boot.model.Build.Resources createBuildResources() {
-        return new jboot.loader.boot.model.Build.Resources();
+    public jboot.loader.model.Build.Resources createBuildResources() {
+        return new jboot.loader.model.Build.Resources();
     }
 
     /**
@@ -417,75 +417,75 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.BuildBase.Filters }
+     * Create an instance of {@link jboot.loader.model.BuildBase.Filters }
      * 
      */
-    public jboot.loader.boot.model.BuildBase.Filters createBuildBaseFilters() {
-        return new jboot.loader.boot.model.BuildBase.Filters();
+    public jboot.loader.model.BuildBase.Filters createBuildBaseFilters() {
+        return new jboot.loader.model.BuildBase.Filters();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.Repositories }
+     * Create an instance of {@link jboot.loader.model.Profile.Repositories }
      * 
      */
-    public jboot.loader.boot.model.Profile.Repositories createProfileRepositories() {
-        return new jboot.loader.boot.model.Profile.Repositories();
+    public jboot.loader.model.Profile.Repositories createProfileRepositories() {
+        return new jboot.loader.model.Profile.Repositories();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Resource.Excludes }
+     * Create an instance of {@link jboot.loader.model.Resource.Excludes }
      * 
      */
-    public jboot.loader.boot.model.Resource.Excludes createResourceExcludes() {
-        return new jboot.loader.boot.model.Resource.Excludes();
+    public jboot.loader.model.Resource.Excludes createResourceExcludes() {
+        return new jboot.loader.model.Resource.Excludes();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Contributors }
+     * Create an instance of {@link jboot.loader.model.Model.Contributors }
      * 
      */
-    public jboot.loader.boot.model.Model.Contributors createModelContributors() {
-        return new jboot.loader.boot.model.Model.Contributors();
+    public jboot.loader.model.Model.Contributors createModelContributors() {
+        return new jboot.loader.model.Model.Contributors();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Contributor.Roles }
+     * Create an instance of {@link jboot.loader.model.Contributor.Roles }
      * 
      */
-    public jboot.loader.boot.model.Contributor.Roles createContributorRoles() {
-        return new jboot.loader.boot.model.Contributor.Roles();
+    public jboot.loader.model.Contributor.Roles createContributorRoles() {
+        return new jboot.loader.model.Contributor.Roles();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.Reports }
+     * Create an instance of {@link jboot.loader.model.Profile.Reports }
      * 
      */
-    public jboot.loader.boot.model.Profile.Reports createProfileReports() {
-        return new jboot.loader.boot.model.Profile.Reports();
+    public jboot.loader.model.Profile.Reports createProfileReports() {
+        return new jboot.loader.model.Profile.Reports();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Dependency.Exclusions }
+     * Create an instance of {@link jboot.loader.model.Dependency.Exclusions }
      * 
      */
-    public jboot.loader.boot.model.Dependency.Exclusions createDependencyExclusions() {
-        return new jboot.loader.boot.model.Dependency.Exclusions();
+    public jboot.loader.model.Dependency.Exclusions createDependencyExclusions() {
+        return new jboot.loader.model.Dependency.Exclusions();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Repositories }
+     * Create an instance of {@link jboot.loader.model.Model.Repositories }
      * 
      */
-    public jboot.loader.boot.model.Model.Repositories createModelRepositories() {
-        return new jboot.loader.boot.model.Model.Repositories();
+    public jboot.loader.model.Model.Repositories createModelRepositories() {
+        return new jboot.loader.model.Model.Repositories();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Developer.Roles }
+     * Create an instance of {@link jboot.loader.model.Developer.Roles }
      * 
      */
-    public jboot.loader.boot.model.Developer.Roles createDeveloperRoles() {
-        return new jboot.loader.boot.model.Developer.Roles();
+    public jboot.loader.model.Developer.Roles createDeveloperRoles() {
+        return new jboot.loader.model.Developer.Roles();
     }
 
     /**
@@ -497,11 +497,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.PluginExecution.Goals }
+     * Create an instance of {@link jboot.loader.model.PluginExecution.Goals }
      * 
      */
-    public jboot.loader.boot.model.PluginExecution.Goals createPluginExecutionGoals() {
-        return new jboot.loader.boot.model.PluginExecution.Goals();
+    public jboot.loader.model.PluginExecution.Goals createPluginExecutionGoals() {
+        return new jboot.loader.model.PluginExecution.Goals();
     }
 
     /**
@@ -513,19 +513,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Profiles }
+     * Create an instance of {@link jboot.loader.model.Model.Profiles }
      * 
      */
-    public jboot.loader.boot.model.Model.Profiles createModelProfiles() {
-        return new jboot.loader.boot.model.Model.Profiles();
+    public jboot.loader.model.Model.Profiles createModelProfiles() {
+        return new jboot.loader.model.Model.Profiles();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Profile.Properties }
+     * Create an instance of {@link jboot.loader.model.Profile.Properties }
      * 
      */
-    public jboot.loader.boot.model.Profile.Properties createProfileProperties() {
-        return new jboot.loader.boot.model.Profile.Properties();
+    public jboot.loader.model.Profile.Properties createProfileProperties() {
+        return new jboot.loader.model.Profile.Properties();
     }
 
     /**
@@ -537,11 +537,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Build.Filters }
+     * Create an instance of {@link jboot.loader.model.Build.Filters }
      * 
      */
-    public jboot.loader.boot.model.Build.Filters createBuildFilters() {
-        return new jboot.loader.boot.model.Build.Filters();
+    public jboot.loader.model.Build.Filters createBuildFilters() {
+        return new jboot.loader.model.Build.Filters();
     }
 
     /**
@@ -553,11 +553,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.PluginManagement.Plugins }
+     * Create an instance of {@link jboot.loader.model.PluginManagement.Plugins }
      * 
      */
-    public jboot.loader.boot.model.PluginManagement.Plugins createPluginManagementPlugins() {
-        return new jboot.loader.boot.model.PluginManagement.Plugins();
+    public jboot.loader.model.PluginManagement.Plugins createPluginManagementPlugins() {
+        return new jboot.loader.model.PluginManagement.Plugins();
     }
 
     /**
@@ -569,19 +569,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Developer.Properties }
+     * Create an instance of {@link jboot.loader.model.Developer.Properties }
      * 
      */
-    public jboot.loader.boot.model.Developer.Properties createDeveloperProperties() {
-        return new jboot.loader.boot.model.Developer.Properties();
+    public jboot.loader.model.Developer.Properties createDeveloperProperties() {
+        return new jboot.loader.model.Developer.Properties();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Properties }
+     * Create an instance of {@link jboot.loader.model.Model.Properties }
      * 
      */
-    public jboot.loader.boot.model.Model.Properties createModelProperties() {
-        return new jboot.loader.boot.model.Model.Properties();
+    public jboot.loader.model.Model.Properties createModelProperties() {
+        return new jboot.loader.model.Model.Properties();
     }
 
     /**
@@ -593,11 +593,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Notifier.Configuration }
+     * Create an instance of {@link jboot.loader.model.Notifier.Configuration }
      * 
      */
-    public jboot.loader.boot.model.Notifier.Configuration createNotifierConfiguration() {
-        return new jboot.loader.boot.model.Notifier.Configuration();
+    public jboot.loader.model.Notifier.Configuration createNotifierConfiguration() {
+        return new jboot.loader.model.Notifier.Configuration();
     }
 
     /**
@@ -633,11 +633,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Model.Reports }
+     * Create an instance of {@link jboot.loader.model.Model.Reports }
      * 
      */
-    public jboot.loader.boot.model.Model.Reports createModelReports() {
-        return new jboot.loader.boot.model.Model.Reports();
+    public jboot.loader.model.Model.Reports createModelReports() {
+        return new jboot.loader.model.Model.Reports();
     }
 
     /**
@@ -657,19 +657,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.Contributor.Properties }
+     * Create an instance of {@link jboot.loader.model.Contributor.Properties }
      * 
      */
-    public jboot.loader.boot.model.Contributor.Properties createContributorProperties() {
-        return new jboot.loader.boot.model.Contributor.Properties();
+    public jboot.loader.model.Contributor.Properties createContributorProperties() {
+        return new jboot.loader.model.Contributor.Properties();
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.DependencyManagement.Dependencies }
+     * Create an instance of {@link jboot.loader.model.DependencyManagement.Dependencies }
      * 
      */
-    public jboot.loader.boot.model.DependencyManagement.Dependencies createDependencyManagementDependencies() {
-        return new jboot.loader.boot.model.DependencyManagement.Dependencies();
+    public jboot.loader.model.DependencyManagement.Dependencies createDependencyManagementDependencies() {
+        return new jboot.loader.model.DependencyManagement.Dependencies();
     }
 
     /**
@@ -689,11 +689,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link jboot.loader.boot.model.PluginExecution.Configuration }
+     * Create an instance of {@link jboot.loader.model.PluginExecution.Configuration }
      * 
      */
-    public jboot.loader.boot.model.PluginExecution.Configuration createPluginExecutionConfiguration() {
-        return new jboot.loader.boot.model.PluginExecution.Configuration();
+    public jboot.loader.model.PluginExecution.Configuration createPluginExecutionConfiguration() {
+        return new jboot.loader.model.PluginExecution.Configuration();
     }
 
     /**

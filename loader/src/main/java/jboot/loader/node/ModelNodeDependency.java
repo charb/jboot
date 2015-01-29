@@ -1,7 +1,7 @@
-package jboot.loader.boot.node;
+package jboot.loader.node;
 
-import jboot.loader.boot.model.Dependency;
-import jboot.loader.boot.model.Exclusion;
+import jboot.loader.model.Dependency;
+import jboot.loader.model.Exclusion;
 
 public class ModelNodeDependency {
     private ModelNode  modelNode; //this the modelnode that depends on this dependency.

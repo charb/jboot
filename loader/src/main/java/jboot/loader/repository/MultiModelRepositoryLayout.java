@@ -1,4 +1,4 @@
-package jboot.loader.boot.repository;
+package jboot.loader.repository;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.node.resource.Resource;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.node.resource.Resource;
 
 public class MultiModelRepositoryLayout implements IModelRepositoryLayout {
 

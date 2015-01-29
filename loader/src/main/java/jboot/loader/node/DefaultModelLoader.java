@@ -1,4 +1,4 @@
-package jboot.loader.boot.node;
+package jboot.loader.node;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -12,7 +12,7 @@ import javax.xml.stream.StreamFilter;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 
-import jboot.loader.boot.model.Model;
+import jboot.loader.model.Model;
 
 public class DefaultModelLoader implements IModelLoader {
 	private Unmarshaller unmarshaller;

@@ -7,7 +7,7 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import jboot.loader.boot.log.LineReplaceLogFormatter;
+import jboot.loader.log.LineReplaceLogFormatter;
 
 public class UpgraderLogger implements IUpgraderListener {
 	private static Logger log = Logger.getLogger("jboot.upgrader");

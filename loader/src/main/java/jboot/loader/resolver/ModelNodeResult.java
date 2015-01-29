@@ -1,11 +1,11 @@
-package jboot.loader.boot.resolver;
+package jboot.loader.resolver;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import jboot.loader.boot.node.ModelNode;
+import jboot.loader.node.ModelNode;
 
 public class ModelNodeResult {
 	private Map<String, ModelNode> modelNodes;

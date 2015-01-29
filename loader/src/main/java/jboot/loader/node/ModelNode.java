@@ -1,4 +1,4 @@
-package jboot.loader.boot.node;
+package jboot.loader.node;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,12 +11,12 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import jboot.loader.boot.model.Dependency;
-import jboot.loader.boot.model.Dependency.Exclusions;
-import jboot.loader.boot.model.Exclusion;
-import jboot.loader.boot.model.Model;
-import jboot.loader.boot.model.Parent;
-import jboot.loader.boot.node.resource.FileResource;
+import jboot.loader.model.Dependency;
+import jboot.loader.model.Dependency.Exclusions;
+import jboot.loader.model.Exclusion;
+import jboot.loader.model.Model;
+import jboot.loader.model.Parent;
+import jboot.loader.node.resource.FileResource;
 
 public class ModelNode {
 	private static final Logger resolverLog = Logger.getLogger("jboot.resolver");

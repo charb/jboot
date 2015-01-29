@@ -1,11 +1,11 @@
 package jboot.repository.client.info;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.ModelNodeDependency;
-import jboot.loader.boot.node.resource.FileResource;
-import jboot.loader.boot.resolver.ModelNodeResult;
-import jboot.loader.boot.visitor.AbstractNodeVisitor;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.ModelNodeDependency;
+import jboot.loader.node.resource.FileResource;
+import jboot.loader.resolver.ModelNodeResult;
+import jboot.loader.visitor.AbstractNodeVisitor;
 import jboot.repository.client.checksum.CRC32Calculator;
 import jboot.repository.client.checksum.IChecksumCalculator;
 import jboot.repository.client.info.model.ArtifactInfo;

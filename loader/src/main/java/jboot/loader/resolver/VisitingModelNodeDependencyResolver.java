@@ -1,15 +1,15 @@
-package jboot.loader.boot.resolver;
+package jboot.loader.resolver;
 
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import jboot.loader.boot.model.Dependency;
-import jboot.loader.boot.node.IModelLoader;
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeArtifact;
-import jboot.loader.boot.node.ModelNodeDependency;
-import jboot.loader.boot.repository.IModelRepositoryLayout;
+import jboot.loader.model.Dependency;
+import jboot.loader.node.IModelLoader;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeArtifact;
+import jboot.loader.node.ModelNodeDependency;
+import jboot.loader.repository.IModelRepositoryLayout;
 
 public class VisitingModelNodeDependencyResolver extends QueueVisitor<ModelNode> {
 	private static final Logger log = Logger.getLogger(VisitingModelNodeDependencyResolver.class.getName());

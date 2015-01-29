@@ -1,13 +1,13 @@
-package jboot.loader.boot.visitor;
+package jboot.loader.visitor;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import jboot.loader.boot.node.ModelNode;
-import jboot.loader.boot.node.ModelNodeDependency;
-import jboot.loader.boot.resolver.ModelNodeResult;
+import jboot.loader.node.ModelNode;
+import jboot.loader.node.ModelNodeDependency;
+import jboot.loader.resolver.ModelNodeResult;
 
 public abstract class AbstractNodeVisitor {
     private ModelNodeResult modelNodeResult;
